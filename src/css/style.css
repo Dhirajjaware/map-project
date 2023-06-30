@@ -1,0 +1,29 @@
+.search {
+  margin: 0.5rem 0;
+}
+
+.container-map {
+  text-align: center;
+}
+
+#map {
+  height: 80vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.input__container {
+  position: sticky;
+  bottom: 0;
+  margin: 0.5rem 0;
+}
+
+form {
+  text-align: center;
+}
+
+.place__popup {
+  font-family: sans-serif;
+}

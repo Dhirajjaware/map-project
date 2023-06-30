@@ -1,0 +1,19 @@
+{
+  "name": "my-map",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Dhiraj",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}

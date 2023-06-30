@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="module" defer src="src/js/controller.js"></script>
+</head>
+
+<body>
+    <!-- Search bar -->
+    <div class="container-fluid container__Search">
+        <form class="d-flex search" role="search">
+            <input class="form-control me-2 input__location" type="search" placeholder="Search a location"
+                aria-label="Search">
+            <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Map container -->
+    <div class="container-fluid container-map">
+        <!-- <div id="map">
+
+        </div> -->
+
+    </div>
+
+    <div class="input__container hidden container-fluid">
+        <form class="d-flex form__mark" role="search">
+            <input class="form-control me-2 input__note" type="search" placeholder="type something about this place."
+                aria-label="Search">
+            <button class="btn btn-primary" type="submit">Mark</button>
+        </form>
+    </div>
+</body>
+
+</html>
