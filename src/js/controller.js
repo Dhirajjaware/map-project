@@ -16,7 +16,6 @@ const controlSearchResults = async function () {
 
     //Get coordinates
     const coords = model.state.city.flatMap((el) => [el.lat, el.lon]);
-
     //Render map
     mapView.renderMap(coords);
   } catch (err) {

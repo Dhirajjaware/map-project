@@ -118,7 +118,6 @@ class MapView {
           autoClose: false,
           closeOnClick: false,
           className: 'place__popup',
-          keepInView: true,
         })
       )
       .setPopupContent(`${place.place}`)
