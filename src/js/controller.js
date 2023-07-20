@@ -9,6 +9,7 @@ const controlSearchResults = async function () {
     //Get query eg: city
     const query = mapView.getQuery();
 
+
     if (!query) return;
 
     //Load City and coordinates
@@ -45,6 +46,7 @@ const init = function () {
   controlDefaultMap();
   mapView.addHandlerRenderMarker(controlMarker);
   controlBackspace();
+  console.log('welcome to Your map 😊');
 };
 init();
 
