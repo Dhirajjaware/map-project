@@ -46,7 +46,6 @@ const init = function () {
   controlDefaultMap();
   mapView.addHandlerRenderMarker(controlMarker);
   controlBackspace();
-  console.log('welcome to Your map 😊');
 };
 init();
 
